@@ -2,7 +2,6 @@ import { ArgType, Context, IArg, IExtendedCompiledFunctionConditionField, Native
 import { IExtendedCompilationResult, Compiler, Interpreter } from "../../core"
 import isTrue from "../../functions/isTrue"
 import { FunctionManager } from "../../managers"
-import callFunction from "../../native/other/callFunction"
 import { Return, ReturnType } from "../@internal/Return"
 import { ForgeError, ErrorType } from "./ForgeError"
 

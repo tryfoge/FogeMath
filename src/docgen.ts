@@ -16,8 +16,5 @@ generateMetadata(
     "native",
     NativeEventName,
     false,
-    expose,
-    // eslint-disable-next-line no-undef
-    join(__dirname, "handlers", "events"),
-    ["es"]
+    expose
 )

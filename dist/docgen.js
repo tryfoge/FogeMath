@@ -14,7 +14,5 @@ const expose = {
 };
 (0, generateMetadata_1.default)(
 // eslint-disable-next-line no-undef
-(0, path_1.join)(__dirname, "native"), "native", managers_1.NativeEventName, false, expose, 
-// eslint-disable-next-line no-undef
-(0, path_1.join)(__dirname, "handlers", "events"), ["es"]);
+(0, path_1.join)(__dirname, "native"), "native", managers_1.NativeEventName, false, expose);
 //# sourceMappingURL=docgen.js.map
