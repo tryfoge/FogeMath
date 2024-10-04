@@ -1,4 +1,4 @@
-import { ArgType, NativeFunction } from "../../structures"
+import { ArgType, NativeFunction } from "@tryforge/forgescript"
 
 export default new NativeFunction({
     name: "$acos",
@@ -16,7 +16,7 @@ export default new NativeFunction({
             required: true,
         }
     ],
-    execute(ctx, [x]) {
+    execute(ctx: any, [x]: any) {
         return this.success(Math.acos(x))
     },
 })

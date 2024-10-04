@@ -1,4 +1,4 @@
-import { ArgType, NativeFunction, Return } from "../../structures"
+import { ArgType, NativeFunction, Return } from "@tryforge/forgescript"
 
 const MathRegex = /[^0-9%\-+./*\t\n\s()<>]/
 

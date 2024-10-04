@@ -1,26 +1,26 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const structures_1 = require("../../structures");
-exports.default = new structures_1.NativeFunction({
+const forgescript_1 = require("@tryforge/forgescript");
+exports.default = new forgescript_1.NativeFunction({
     name: "$atan2",
     version: "1.0.0",
     description: "Returns the arctangent of the quotient of its arguments.",
     brackets: true,
     unwrap: true,
-    output: structures_1.ArgType.Number,
+    output: forgescript_1.ArgType.Number,
     args: [
         {
             name: "y",
             description: "The y-coordinate.",
             rest: false,
-            type: structures_1.ArgType.Number,
+            type: forgescript_1.ArgType.Number,
             required: true,
         },
         {
             name: "x",
             description: "The x-coordinate.",
             rest: false,
-            type: structures_1.ArgType.Number,
+            type: forgescript_1.ArgType.Number,
             required: true,
         },
     ],

@@ -1,4 +1,4 @@
-import { ArgType, NativeFunction } from "../../structures";
+import { ArgType, NativeFunction } from "@tryforge/forgescript";
 declare const _default: NativeFunction<[{
     name: string;
     description: string;

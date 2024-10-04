@@ -1,19 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const structures_1 = require("../../structures");
-exports.default = new structures_1.NativeFunction({
+const forgescript_1 = require("@tryforge/forgescript");
+exports.default = new forgescript_1.NativeFunction({
     name: "$bigintSum",
     version: "1.3.0",
     description: "Adds multiple numbers",
     brackets: true,
     unwrap: true,
-    output: structures_1.ArgType.BigInt,
+    output: forgescript_1.ArgType.BigInt,
     args: [
         {
             name: "numbers",
             description: "Numbers to add",
             rest: true,
-            type: structures_1.ArgType.BigInt,
+            type: forgescript_1.ArgType.BigInt,
             required: true,
         },
     ],

@@ -1,4 +1,4 @@
-import { ArgType, NativeFunction } from "../../structures"
+import { ArgType, NativeFunction } from "@tryforge/forgescript"
 
 export default new NativeFunction({
     name: "$atan",
